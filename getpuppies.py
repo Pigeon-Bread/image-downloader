@@ -1,9 +1,9 @@
 import os
 import random
 from PIL import Image
-import pyautogui
+import pyautogui #pip install pyautogui
 import time
-from bing_image_downloader import downloader 
+from bing_image_downloader import downloader #pip install bing_image_downloader
 
 def puppyScraper(): #Downloads the images of puppies
     done = False
